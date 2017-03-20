@@ -389,6 +389,10 @@ fly-esnext@^2.0.1:
   dependencies:
     require-like "^0.1.2"
 
+fly-flatten@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fly-flatten/-/fly-flatten-1.0.1.tgz#f4d1c73d4c31d3e3c492336a0b265b405ceb1866"
+
 fly-typescript@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fly-typescript/-/fly-typescript-1.0.0.tgz#35e8b9f0e0cc90604589b394d5070988ba985ff8"
