@@ -2,8 +2,10 @@ import { Module } from 'magnet-core/module'
 import * as http from 'http'
 
 export default class MagnetHttp extends Module {
-  get moduleName () { return 'http' }
-  get defaultConfig () { return __dirname }
+  init () {
+    this.moduleName = 'http'
+    this.defaultConfig = __dirname
+  }
 
   async setup () {
     let requestListener = this.config.requestListener

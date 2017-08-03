@@ -1,8 +1,10 @@
 import { Module } from 'magnet-core/module'
 
-export default class HttpStart extends Module {
-  get moduleName () { return 'http' }
-  get defaultConfig () { return __dirname }
+export default class MagnetHttpStart extends Module {
+  init () {
+    this.moduleName = 'http'
+    this.defaultConfig = __dirname
+  }
 
   async setup () {
     const log = this.log
