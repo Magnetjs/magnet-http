@@ -15,9 +15,9 @@ class HttpStart extends module_1.Module {
     setup() {
         return __awaiter(this, void 0, void 0, function* () {
             const log = this.log;
-            this.insert('httpServer', this.app.http.listen(this.config.port, function () {
+            this.insert(this.app.http.listen(this.config.port, function () {
                 log.info('Http  listening at port', this.address().port);
-            }));
+            }), 'httpServer');
         });
     }
 }

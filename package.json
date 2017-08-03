@@ -1,6 +1,6 @@
 {
   "name": "magnet-http",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Magnet adapter for http",
   "keywords": [
     "magnet",
@@ -20,7 +20,7 @@
     "dist": "npm run build && cd dist && npm publish"
   },
   "dependencies": {
-    "magnet-core": "^3.7.4"
+    "magnet-core": "^4.0.1"
   },
   "devDependencies": {
     "fly": "^2.0.5",
